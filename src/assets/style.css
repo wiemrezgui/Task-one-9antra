@@ -40,7 +40,7 @@
 .header-button {
     border-radius: 20px;
     background: #AF2F64;
-    padding: 15px 30px;
+    padding: 15px 20px;
     border: none;
     color: white;
     display: inline-block;
@@ -51,6 +51,7 @@
 .header-button a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 .main-content {
@@ -118,9 +119,11 @@
     margin-bottom: 20px;
     text-align: left;
 }
-.contact .item label{
+
+.contact .item label {
     font-weight: bold;
 }
+
 .contact input,
 .contact textarea {
     width: 100%;
