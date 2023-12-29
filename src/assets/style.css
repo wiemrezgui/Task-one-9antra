@@ -1,0 +1,145 @@
+* {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.logo {
+    padding: 10px;
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-content-bg {
+    background-color: rgba(255, 255, 255, 0.793);
+    width: 50%;
+
+}
+
+.header-content {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    height: 300px;
+    font-weight: bold;
+}
+
+.header-content-text {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.header-button {
+    border-radius: 20px;
+    background: #AF2F64;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main .cards .card {
+    padding: 20px;
+    text-align: center;
+    border-radius: 70px;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.main .cards .card img {
+    width: 100%;
+    height: 250px;
+}
+
+.main .cards .card .card-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main .cards .card .card-price {
+    font-size: 20px;
+    color: #AF2F64;
+    font-weight: bold;
+
+}
+
+.contact {
+    margin: 5% auto;
+    padding: 30px;
+    width: 70%;
+    border-radius: 15px;
+    background: #F9B454;
+}
+
+.contact .contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact form {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact .item {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.contact .item label{
+    font-weight: bold;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+}
+
+.contact button {
+    background-color: rgba(175, 47, 100, 1);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 40%;
+    margin: 0 30%;
+
+}
